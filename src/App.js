@@ -1,7 +1,6 @@
 import "./App.css";
-import React from 'react'
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import React, { useState, useEffect } from 'react';
+import { Spinner, Container,Row,Col } from 'react-bootstrap';
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import $ from "jquery";
@@ -17,12 +16,37 @@ import Social from "./components/social/Social";
 
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    const delay = 2000; 
   
-
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, delay);
+  
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <>
-
-<Navbar/>
+      {isLoading ? (
+      
+        <Container className="d-flex justify-content-center align-items-center vh-100">
+          <Row>   <div className="justify-content-center text-white text-center"> <h1>Renjith Portfolio Loading...</h1></div>
+          <Col className="justify-content-center text-center">
+      <Spinner animation="grow" variant="primary" />
+      <Spinner animation="grow" variant="secondary" />
+      <Spinner animation="grow" variant="success" />
+      <Spinner animation="grow" variant="danger" />
+      <Spinner animation="grow" variant="warning" />
+      <Spinner animation="grow" variant="info" />
+      <Spinner animation="grow" variant="light" />
+      <Spinner animation="grow" variant="dark" />
+      </Col>
+      </Row>
+        </Container>
+      ) : (
+        <>
+          <Navbar/>
       <Hero />
       <Aboutme  />
       <Skills/>
@@ -32,8 +56,10 @@ function App() {
       <Contact />
       <Social />
 
-    </>
-  );
-}
+        </>
+      )}
+  </>
+);
+      }
 
 export default App;
