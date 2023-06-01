@@ -14,13 +14,12 @@ export default function NavigationBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav"><FontAwesomeIcon icon={faBars} flip size="2xl" style={{color: "#ffffff"}} /></Navbar.Toggle>
 
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-   
-
           <Nav>
             <Nav.Link href="#" className="nav-link">Home</Nav.Link>
             <Nav.Link href="#project" className="nav-link">Projects</Nav.Link>
             <Nav.Link href="#experience" className="nav-link">Experience</Nav.Link>
-            <Nav.Link href={resume} target="_blank" rel="noopener noreferrer" className="nav-link">Resume</Nav.Link>
+            <Nav.Link href={resume} target="_blank" className="nav-link">Resume</Nav.Link>
+            <Nav.Link href="#contact" className="nav-link">Contact ME</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
