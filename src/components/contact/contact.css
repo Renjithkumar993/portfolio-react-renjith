@@ -1,0 +1,41 @@
+.newletter{
+    color: aqua;
+    border: 2px solid linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+    border-radius: 100px;
+
+}
+.work-togather-form-btn{
+    font-size: larger;
+    padding: 10px;
+
+}
+
+.sec-btn{
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.work-togather-form{
+    font-size: larger;
+    padding: 10px;
+}
+.subscribe-input{
+    padding: 10px;
+    border-radius: 50px;
+}
+
+@keyframes glowing {
+    0% {
+      box-shadow: 0 0 5px white;
+    }
+    50% {
+      box-shadow: 0 0 15px white;
+    }
+    100% {
+      box-shadow: 0 0 5px white;
+    }
+  }
+
+  .newletter{
+    animation: glowing 2s infinite;
+  }
