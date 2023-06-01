@@ -19,15 +19,10 @@
 body {
 
   background-color:#0d012c !important;;
-  scroll-behavior: smooth;
-  width: 100vw;
-  height: 100vh;
- font-size: larger !important;
- font-family: 'Stella Nova', sans-serif!important;
-  user-select: none;
-  font-size: 0.88rem;
+ scroll-behavior: smooth;
+
+font-family: 'Stella Nova', sans-serif!important;
   overflow-x: hidden !important;
-  transition: 0.5s background ease;
 }
 
 
@@ -35,5 +30,4 @@ body {
   font-family: 'Punizione', sans-serif !important
                                                 
 }
-
 

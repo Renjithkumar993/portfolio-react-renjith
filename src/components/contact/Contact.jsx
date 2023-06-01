@@ -36,7 +36,7 @@ export default function Contact() {
             <Col lg={3} md={4}>
               <div className="work-togather-form-btn">
               <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
-                <button type="submit" className="sec-btn bg-success text-white p-3">
+                <button type="submit" className="sec-btn bg-success text-white p-3 subscribe">
                   Subscribe Now
                 </button>
                 </motion.div>

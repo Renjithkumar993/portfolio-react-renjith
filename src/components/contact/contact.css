@@ -10,9 +10,9 @@
 
 };
 
-.sec-btn{
+.subscribe{
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 50px !important
 }
 
 .work-togather-form{

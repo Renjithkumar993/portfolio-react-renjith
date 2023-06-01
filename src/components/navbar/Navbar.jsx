@@ -11,7 +11,7 @@ export default function NavigationBar() {
       <Container className="d-flex">
         <Navbar.Brand href="#home" className="text-white">Renjith Rajakumar</Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav">     <FontAwesomeIcon icon={faBars} flip size="2xl" style={{color: "#ffffff",}} /></Navbar.Toggle>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"><FontAwesomeIcon icon={faBars} flip size="2xl" style={{color: "#ffffff"}} /></Navbar.Toggle>
 
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
    
