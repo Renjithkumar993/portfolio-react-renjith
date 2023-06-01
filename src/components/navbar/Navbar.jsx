@@ -15,7 +15,7 @@ export default function NavigationBar() {
 
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav>
-            <Nav.Link href="#" className="nav-link">Home</Nav.Link>
+            <Nav.Link href="mainpage" className="nav-link">Home</Nav.Link>
             <Nav.Link href="#project" className="nav-link">Projects</Nav.Link>
             <Nav.Link href="#experience" className="nav-link">Experience</Nav.Link>
             <Nav.Link href={resume} target="_blank" className="nav-link">Resume</Nav.Link>

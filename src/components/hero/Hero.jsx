@@ -11,7 +11,7 @@ import Social from "../social/Social";
 
 export default function Hero() {
   return (
-    <Container className="d-flex mt-5 hero-container justify-content-center">
+    <Container className="d-flex mt-5 hero-container justify-content-center" id="mainpage">
       <Row className="align-items-center">
         <Col
           sm={12}
