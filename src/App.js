@@ -18,25 +18,9 @@ import Social from "./components/social/Social";
 
 function App() {
   
-  $(window).on("load", function () {
-    if ($("#preloader").length) {
-      $("#preloader")
-        .delay(700)
-        .fadeOut("slow", function () {
-          $(this).remove();
-        });
-    }
-  });
 
   return (
     <>
-<div id="preloader" className="d-flex justify-content-center">
-  <div className="col-12 text-center">
-    <h2 className="name-load animate-character text-center">
-      PORTFOLIO LOADING
-    </h2>
-  </div>
-</div>
 
 <Navbar/>
       <Hero />
