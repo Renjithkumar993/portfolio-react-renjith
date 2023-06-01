@@ -31,7 +31,7 @@ function App() {
       {isLoading ? (
       
         <Container className="d-flex justify-content-center align-items-center vh-100">
-          <Row>   <div className="justify-content-center text-white text-center"> <h1>Renjith Portfolio Loading...</h1></div>
+          <Row>   <div className="justify-content-center text-white text-center"> <h1>Renjith Portfolio Loading</h1></div>
           <Col className="justify-content-center text-center">
       <Spinner animation="grow" variant="primary" />
       <Spinner animation="grow" variant="secondary" />
