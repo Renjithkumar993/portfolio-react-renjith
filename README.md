@@ -4,7 +4,8 @@ Welcome to my React portfolio! This portfolio showcases my projects, skills, and
 
 ## Live Demo
 
-You can view a live demo of my portfolio [](./src/assets/walkthroughresume.gif).
+You can view a live demo of my portfolio 
+![](./src/assets/walkthroughresume.gif).
 
 ## Technologies Used
 
