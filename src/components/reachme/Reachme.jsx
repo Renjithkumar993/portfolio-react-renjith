@@ -12,28 +12,33 @@ export default function Reachme() {
 
   const handleInputChange = (e) => {
     const { target } = e;
-    const inputType = target.name;
+    const inputType = target.type;
     const inputValue = target.value;
+console.log(inputType)
+
 
     if (inputType === "email") {
       setEmail(inputValue);
+      console.log(email)
     } 
+ 
   };
-  console.log(email)
+
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
     if (!validateEmail(email)) {
       setErrorMessage("your email address is not correct. please enter valid email address");
-
+      console.log(email)
       return;
+    }else{
+      setErrorMessage("i receved the email i will getback to you soon .....");
     }
 
-
-
-    setEmail("");
   };
+
+
 
   return (
     <div className="container reachme-container mt-5">
@@ -90,7 +95,6 @@ export default function Reachme() {
               <div className="col-md-6">
                 <input
                   type="email"
-                  name="user_email"
                   onChange={handleInputChange}
                   className="form-control"
                   placeholder="Enter Your Email"
@@ -108,7 +112,6 @@ export default function Reachme() {
               <div className="col-md-12 mb-2">
                 <textarea
                   name="message"
-                  value={email}
                   id=""
                   cols="40"
                   rows="6"
