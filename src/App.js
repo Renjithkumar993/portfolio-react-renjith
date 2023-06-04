@@ -12,6 +12,7 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Social from "./components/social/Social";
 import Reachme from "./components/reachme/Reachme";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
