@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Renjithkumar993/portfolio-react-renjith/static/css/main.ff91e1d4.css",
+    "main.js": "/Renjithkumar993/portfolio-react-renjith/static/js/main.a84950f9.js",
+    "static/media/Capture3.PNG": "/Renjithkumar993/portfolio-react-renjith/static/media/Capture3.29a4a943d101f958d3da.PNG",
+    "static/media/Capture.PNG": "/Renjithkumar993/portfolio-react-renjith/static/media/Capture.28de3117a0b538d07492.PNG",
+    "static/media/weather.jpg": "/Renjithkumar993/portfolio-react-renjith/static/media/weather.9b6d1d9737bedbf57e2c.jpg",
+    "static/media/aboutme.png": "/Renjithkumar993/portfolio-react-renjith/static/media/aboutme.78eac00b67e50eb028ad.png",
+    "static/media/DALL.png": "/Renjithkumar993/portfolio-react-renjith/static/media/DALL.d71232fd7d39bd3cba57.png",
+    "static/media/frontpagehero.png": "/Renjithkumar993/portfolio-react-renjith/static/media/frontpagehero.1ef5984914db38ef25e2.png",
+    "static/media/student-studying-at-home-free-vector-removebg-preview.png": "/Renjithkumar993/portfolio-react-renjith/static/media/student-studying-at-home-free-vector-removebg-preview.abed58f2d4aa201eae5c.png",
+    "static/media/Renjith_Rajakumar_Resume.ff.pdf": "/Renjithkumar993/portfolio-react-renjith/static/media/Renjith_Rajakumar_Resume.ff.a7f228fcb6a6b7529f1c.pdf",
+    "static/media/Capture4.PNG": "/Renjithkumar993/portfolio-react-renjith/static/media/Capture4.3cdd5944c9fef67e7961.PNG",
+    "static/media/profilepic.png": "/Renjithkumar993/portfolio-react-renjith/static/media/profilepic.ccd7f5292a9c9fe58c26.png",
+    "static/media/Capture1.PNG": "/Renjithkumar993/portfolio-react-renjith/static/media/Capture1.6980dfd0b31b5ef2542c.PNG",
+    "index.html": "/Renjithkumar993/portfolio-react-renjith/index.html",
+    "main.ff91e1d4.css.map": "/Renjithkumar993/portfolio-react-renjith/static/css/main.ff91e1d4.css.map",
+    "main.a84950f9.js.map": "/Renjithkumar993/portfolio-react-renjith/static/js/main.a84950f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff91e1d4.css",
+    "static/js/main.a84950f9.js"
+  ]
+}
