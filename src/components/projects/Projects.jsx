@@ -4,7 +4,7 @@ import project2 from "../../assets/Capture1.PNG";
 import project3 from "../../assets/Capture3.PNG";
 import project4 from "../../assets/Capture4.PNG";
 import "./project.css";
-import projectImage from "../../assets/DALL·E 2023-05-16 10.52.57 - change this and make it differnet stayle to say same concept match with dark purple color.png";
+import projectImage from "../../assets/DALL.png";
 import { Zoom } from "react-awesome-reveal";
 import weatherProject from "../../assets/weather.jpg";
 
