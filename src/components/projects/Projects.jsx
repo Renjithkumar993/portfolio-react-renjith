@@ -49,12 +49,19 @@ export default function Projects() {
                         the city of your choice. The application utilizes the
                         OpenAI API to generate personalized recommendations.
                       </p>
-                      <div className="card-overlay">
+                      <div className="card-overlay justify-content-between d-flex">
                         <a
                           href="https://weatherai.herokuapp.com/"
                           className="btn btn-light"
                         >
                           View Details
+                        </a>
+                        <a
+                          href="https://github.com/Renjithkumar993/weather-app-openai-eventapi"
+                          className="btn btn-light"
+                        >
+                          
+                         View Source Code
                         </a>
                       </div>
                     </div>
@@ -80,12 +87,20 @@ export default function Projects() {
                         and intelligent suggestions to create engaging and
                         personalized conversational experiences.
                       </p>
-                      <div className="card-overlay">
+                      <div className="card-overlay justify-content-between d-flex">
                         <a
                           href="https://taskbot-openai.herokuapp.com/"
                           className="btn btn-light"
                         >
+                          
                           View Details
+                        </a>
+                        <a
+                          href="https://github.com/Renjithkumar993/taskbot-openAI"
+                          className="btn btn-light"
+                        >
+                          
+                         View Source Code
                         </a>
                       </div>
                     </div>
@@ -109,12 +124,19 @@ export default function Projects() {
                         improving your chances of catching the eye of recruiters
                         and hiring managers.
                       </p>
-                      <div className="card-overlay">
+                      <div className="card-overlay justify-content-between d-flex">
                         <a
                           href="https://airesume.herokuapp.com/"
                           className="btn btn-light"
                         >
                           View Details
+                        </a>
+                        <a
+                          href="https://github.com/aturner1995/rocket-resumes/"
+                          className="btn btn-light"
+                        >
+                          
+                         View Source Code
                         </a>
                       </div>
                     </div>
@@ -137,12 +159,19 @@ export default function Projects() {
                         Powered by the TMDB API, Watchmode API, News API, and
                         featuring styling from the Bulma CSS framework.
                       </p>
-                      <div className="card-overlay">
+                      <div className="card-overlay justify-content-between d-flex">
                         <a
                           href="https://renjithkumar993.github.io/MovieBuff/"
                           className="btn btn-light"
                         >
                           View Details
+                        </a>
+                        <a
+                          href="https://github.com/Renjithkumar993/MovieBuff"
+                          className="btn btn-light"
+                        >
+                          
+                         View Source Code
                         </a>
                       </div>
                     </div>
@@ -164,12 +193,19 @@ export default function Projects() {
                         create, read, update, and delete blog posts. Users can
                         also leave comments on blog posts.
                       </p>
-                      <div className="card-overlay">
+                      <div className="card-overlay justify-content-between d-flex">
                         <a
                           href="https://techblogclub.herokuapp.com/"
                           className="btn btn-light"
                         >
                           View Details
+                        </a>
+                        <a
+                          href="https://github.com/Renjithkumar993/Tech-Blog-MVC"
+                          className="btn btn-light"
+                        >
+                          
+                         View Source Code
                         </a>
                       </div>
                     </div>
