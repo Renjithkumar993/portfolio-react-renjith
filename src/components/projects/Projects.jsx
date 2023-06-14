@@ -7,6 +7,7 @@ import "./project.css";
 import projectImage from "../../assets/DALL.png";
 import { Zoom } from "react-awesome-reveal";
 import weatherProject from "../../assets/weather.jpg";
+import snippetmanager from "../../assets/snippetmanager.PNG"
 
 export default function Projects() {
   return (
@@ -32,6 +33,39 @@ export default function Projects() {
             </Zoom>
 
             <div className="row text-white">
+            <div className="col-md-4 mt-4">
+              <Zoom left cascade delay={0.4}>
+                  <div className="card  projectcard">
+                    <img
+                      src={snippetmanager}
+                      alt="Project 1"
+                      className="card-img-top"
+                    />
+                    <div className="card-body ">
+                      <h3 className="card-title">SnippetManager</h3>
+                      <p className="card-text ">
+                      SnippetManager is a web application built using the MERN stack (MongoDB, Express.js, React, Node.js) that allows users to manage their code snippets. Users can log in using JWT (JSON Web Tokens), add code snippets, view, copy, edit, and delete them.
+                      </p>
+                      <div className="card-overlay justify-content-between d-flex">
+                        <a
+                          href="https://codemanagermedia.herokuapp.com/"
+                          className="btn btn-light"
+                        >
+                          View Details
+                        </a>
+                        <a
+                          href="https://github.com/Renjithkumar993/MERN-codemedia_graphQL"
+                          className="btn btn-light"
+                        >
+                          
+                         View Source Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </Zoom>
+</div>
+
             <div className="col-md-4 mt-4">
               <Zoom left cascade delay={0.4}>
                   <div className="card  projectcard">
