@@ -8,6 +8,7 @@ import projectImage from "../../assets/DALL.png";
 import { Zoom } from "react-awesome-reveal";
 import weatherProject from "../../assets/weather.jpg";
 import snippetmanager from "../../assets/snippetmanager.PNG"
+import taskmaster from "../../assets/taskmaster.PNG"
 
 export default function Projects() {
   return (
@@ -33,6 +34,42 @@ export default function Projects() {
             </Zoom>
 
             <div className="row text-white">
+            <div className="col-md-4 mt-4">
+              <Zoom left cascade delay={0.4}>
+                  <div className="card  projectcard">
+                    <img
+                      src={taskmaster}
+                      alt="Project 1"
+                      className="card-img-top"
+                    />
+                    <div className="card-body ">
+                      <h3 className="card-title">TaskMaster</h3>
+                      <p className="card-text ">
+                      A local service provider for freelancers and local small businesses. Built with React, Node.js, Express, Apollo Graphql and Stripe.
+                      </p>
+                      <div className="card-overlay justify-content-between d-flex">
+                        <a
+                          href="https://taskmaster-nb-b422cb18fd72.herokuapp.com/"
+                          className="btn btn-light"
+                        >
+                          View Details
+                        </a>
+                        <a
+                          href="https://github.com/Renjithkumar993/taskmaster"
+                          className="btn btn-light"
+                        >
+                          
+                         View Source Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </Zoom>
+</div>
+
+
+
+
             <div className="col-md-4 mt-4">
               <Zoom left cascade delay={0.4}>
                   <div className="card  projectcard">
